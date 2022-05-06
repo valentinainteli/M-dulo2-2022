@@ -1,0 +1,88 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+        body{
+            font-family: 'Montserrat', sans-serif;
+            background-color: rgb(250, 246, 241);
+        }
+        
+        h1{
+            text-align: center;
+        }
+        .direita{  
+            text-align: right;
+        }
+        
+        /* .container{
+            width: 100%;
+            margin: 0 auto;
+            border: 5px solid rgb(182, 131, 131) 
+        }  */
+        #ex{
+            text-align: left;
+        }
+        #premiacoes{
+            text-align: left;
+        }
+        #form{
+            text-align: left;
+        }
+        #extras{
+            text-align: left;
+        }
+        #lin{
+            text-align: left;
+        }
+        .item {
+	        margin: 10px;
+	        text-align: left;
+	        font-size: 1em;
+        }
+        .flex-wrap {
+	        flex-wrap: wrap;
+        }
+        .flex{
+            display: flex;
+        }
+        .flex-item-1 {
+	        flex: 1;
+        }
+        .col-2{
+            border: solid 5px rgb(182, 131, 131);
+            width: 175px;
+            border-radius: 5%;
+            min-width:min-content;
+            max-width: max-content;
+            
+        }
+        .imagem{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            /* width: fit-content; */
+            /* width: -moz-fit-content; */
+            padding: 10px;
+        }
+        #photo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .imagem img {
+            max-width: 80%;
+            margin: 20px;
+            border-radius: 50%;
+            outline: solid 20px #8ca0ff;
+        }
+        .col-3{
+            border: solid 0px rgb(255, 255, 255);
+            width: 100%;
+            border-radius: 3%;
+        }
+        /* .col-4{
+            border: solid 2px rgb(0, 0, 0);
+            width: 31%;
+            position: right;
+            text-align: right;
+        } */
+        
