@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id='n1' type='number' placeHolder = 'Digite o número 1'>
+    <input id='n2' type='number' placeHolder = 'Digite o número 2'> 
+    <button onclick='Calcular()'>Ver resultado</button> 
+    <p id = 'resultado' ></p>
+    
+    <script>
+    var n1 = document.getElementById('n1').value;
+    var n2 = document.getElementById('n2').value;
+    var total
+    function Calcular(){
+      total = Number(n1) + Number(n2);
+      document.getElementById('resultado').innerHTML = Number(total)
+    }
+    </script>
+</body>
+</html>
